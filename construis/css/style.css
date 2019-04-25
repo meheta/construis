@@ -1,0 +1,370 @@
+body
+{
+   font-family: 'Nunito sans-serif';
+}
+h2
+{
+    font-size: 25px;
+}
+
+h1
+{
+   text-align: center;
+    margin-top: 50px;
+}
+
+/*HEADER*/
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #4a148c;
+}
+
+.navbar
+{
+    font-size: 18px;
+    font-weight: bold;
+    background: url(../images/font1.jpg);
+    background-size: 100%;
+}
+
+/*MAIN-IMAGE*/
+.image
+{
+    height: 580px;
+    background: url(../images/EQUIPE.jpg) center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+}
+.image h3
+{
+    float: right;
+    padding-top: 100px;
+    font-size: 32px;
+    margin-right: 35px;
+}
+
+/*presente*/
+#marron
+{
+    height: 480px;
+    background-color: #fff8e1;
+}
+#gris .presente1 p
+{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.presente2 img
+{
+    width: 60%;
+    margin-left: 140px;
+    margin-top: 42px;
+}
+
+.caption
+{
+    text-align: center;
+    font-size: 12px;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+#presente
+{
+    margin-top: 90px;
+    height: 380px;
+    background: url(../images/maison.jpg) center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+/*    filter: opacity(0.5);*/
+    color: black;
+    
+}
+.presente1 h3
+{
+   font-size: 30px;
+    margin-top: 100px;
+}
+.presente1 p
+{
+    font-size: 17px;
+    margin-top: 32px;
+    margin-bottom: 100px;
+}
+#gris
+{
+    background-color: #fafafa;
+    height: 500px;
+}
+#gris .IMAGE
+{
+    padding-top: 80px;
+    margin-right: 20%;
+}
+.button1
+{
+    border: 1px solid #ddd;
+/*    background:#4a148c;*/
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+    padding-top: 10px;
+    margin-left: 80px;
+}
+#bleu
+{
+    background-color:#673ab7 ;
+    height: 90px;
+}
+
+/*FOOTER*/
+#color
+{
+    background: #212121;
+    margin-top: 32px;
+}
+#color .texte
+{
+    color: white;
+    margin-top: 40px;
+    margin-bottom:40px; 
+}
+#color .texte p
+{
+    margin-top: 32px;
+    
+}
+#color .texte h3
+{
+    font-size: 21px;
+} 
+.bas
+{
+    background:#ffb74d;
+    height: 70px;
+    width: 100%;
+}
+.bas p
+{
+    text-align: center;
+    padding-top: 27px;
+    font-size: 15px;
+}
+
+/*£££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££*/
+#service
+{
+    height: 480px;
+    background: url(../images/ACCEUIL.jpg) center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+    
+}
+#service .ser h5
+{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 200px;
+    font-size: 87px;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+#conception
+{
+    height: 500px;
+    background: url(../images/PLAN.jpg) center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+    
+}
+#conception .concep h5
+{
+    text-align: center;
+    color: black;
+    padding-top: 250px;
+    font-size: 65px;
+}
+/*££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££££*/
+#construction
+{
+    height: 500px;
+    background: url(../images/DESIGN.jpg) center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+    
+}
+#construction .const h5
+{
+    text-align: center;
+    color:whitesmoke;
+    padding-top: 300px;
+    font-size: 50px;
+}
+#ligne
+{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+#ligne .lig p
+{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    
+}
+#berge
+{
+    background: #ffebee;
+    height: 480px;
+}
+#berge .berg
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#berge .berg li
+{
+   padding-top: 15px;
+    font-size: 15px;
+}
+#white 
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#white .whi li
+{
+    padding-top: 15px;
+    font-size: 15px; 
+}
+.button2
+{
+    border: 1px solid #ddd;
+    background:#ffb74d;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+    padding-top: 2px;
+    width: 15%;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+#claire
+{
+   background:#fafafa; 
+   height:480px;
+}
+#claire .clai
+{
+    padding-top: 67px;
+}
+#claire .clai p
+{
+    font-size: 20px;
+    padding-top: 60px;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+
+#image
+{
+    margin-left: 16%;
+}
+#contact-form
+{
+     font-size: 20px;
+     padding: 5px 40px;
+     border-radius: 2px;
+     background:#f48fb1; 
+/*     margin-top: 15px;*/
+     margin-bottom: 20px;
+    margin-left: 7%;
+    border: 1px solid ;
+/*     background:#371F57;*/
+}
+.form-control
+{
+    height: 50px;
+    font-size: 18px;
+}
+.erreur
+{
+    font-size: 15px;
+    color: #d82c2e;
+    height: 15px;
+}
+#contact-form input[type=submit]
+{
+    margin: 40px auto 0px;
+    display: block;
+}
+.button3
+{
+    border: 1px solid black;
+    background:#f48fb1;
+    color: #fff;
+    font-weight: bold;
+    padding: 18px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in 0s;
+ 
+}
+.button3:hover
+{
+    background: #333;
+    border-color:#4a148c; 
+}
+#rose
+{
+    background: #212121;
+    height:60px;
+    margin-bottom: 70px;
+}
+#rose .texte
+{
+    margin-top: 20px;
+}
+#rose .texte p
+{
+    color: white;
+}
+.button4
+{
+    border: 1px solid #ddd;
+/*    background:#ffb74d;*/
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 2px;
+    transition: all 0.3s ease-in 0s;
+    width: 15%;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+#admin
+{
+    background: url(../images/font1.jpg);
+    background-size: 100%;
+    padding-bottom: 40px;
+}
+#admin th
+{
+    font-size: 17px;
+}
+#admin td
+{
+    font-size: 15px;
+}
